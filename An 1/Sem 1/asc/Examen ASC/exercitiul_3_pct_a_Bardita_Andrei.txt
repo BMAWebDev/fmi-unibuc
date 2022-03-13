@@ -1,0 +1,33 @@
+.data
+	x: .word 20
+	y: .word 19
+	z: .word 4
+	
+.text
+	main:
+		lw $t0, x
+		lw $t1, y
+		lw $t2, z
+		
+		bge $t0, $t1, ifGreaterOrEqual
+		
+		li $v0, 10
+		syscall
+		
+		ifGreaterOrEqual:
+			bne $t0, $t1, ifNotEqual
+			beq $t0, $t1, else
+			
+			ifNotEqual:
+				add $t2, $zero, 1
+				
+				li $v0, 10
+				syscall
+		
+			else:
+				add $t2, $zero, 2
+				
+				li $v0, 10
+				syscall
+			
+	
