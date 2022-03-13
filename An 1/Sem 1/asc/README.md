@@ -3,13 +3,17 @@
 ## Detalii curs
 
 `Profesor:` Dragulici Daniel
+
 `Limbaj:` MIPS
+
 `Nr. restante la materie:` 0
 
 ## Metoda de evaluare
 
 `Tema:` un exercitiu din tema2 si unul din tema3 (folderul `fisiere exercitii`), ambele evaluate intre 0p si 1p. Total pe tema: 2p.
+
 `Examen:` 4p oficiu + [0 - 6] proba scrisa
+
 `Nota finala:` tema + examen
 
 ## Suport de curs
